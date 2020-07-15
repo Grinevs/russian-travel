@@ -1,0 +1,54 @@
+.cover__subtitle {
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: white;
+  max-width: 360px;
+  width: 70vw;
+  z-index: 5;
+  opacity: 1;
+  position: relative;
+  top: 35%;
+  left: 0;
+  margin: 0;
+ z-index: 5;
+}
+
+@media all and (max-width: 1280px) {
+
+  .cover__subtitle {
+    width: 90vw;
+    
+    
+  }
+}
+
+@media all and (max-width: 800px) {
+
+  .cover__subtitle {
+    
+    top: 25%
+    
+  }
+}
+
+
+@media all and (max-width: 700px) {
+
+  .cover__subtitle {
+    
+    font-size: 14px;
+    top: 45%
+    
+  }
+}
+
+@media all and (max-width: 460px) {
+
+  .cover__subtitle {
+    
+    
+    top:25%
+    
+  }
+}

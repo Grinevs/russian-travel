@@ -1,0 +1,12 @@
+.place__paragraph {
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0;
+  margin-top: 2vh;
+}
+
+@media all and (max-width: 700px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}

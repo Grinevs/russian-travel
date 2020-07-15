@@ -1,0 +1,22 @@
+.place__url {
+  color: #AAA;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  
+}
+
+@media (min-width:701px) and (max-width: 831px) {
+
+  .place__url {
+    opacity: 0;
+    
+  }
+
+}
+
+@media all and (max-width: 700px) {
+  .place__url {
+    opacity: 0;
+  }
+}

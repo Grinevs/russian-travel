@@ -1,0 +1,31 @@
+.cover {
+padding-top: 20vh;
+
+}
+
+@media (min-width:701px) and (max-width: 832px) {
+
+  .cover {
+    padding-top: 50vh;
+    
+  }
+
+}
+
+@media all and (max-width: 700px) {
+
+  .cover {
+    padding-top: 50vh;
+    
+  }
+
+}
+
+@media (min-width:319px) and (max-width: 415px) {
+
+  .cover {
+    padding-top: 70vh;
+    
+  }
+
+}

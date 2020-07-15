@@ -1,0 +1,16 @@
+.intro {
+  text-align: left;
+  max-width: 968px;
+  padding: 0 2vw;
+  
+}
+
+@media (min-width:319px) and (max-width: 400px) {
+
+  .intro {
+    
+    width: 90vw;
+    
+  }
+
+}
