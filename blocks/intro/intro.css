@@ -1,9 +1,35 @@
 .intro {
   text-align: left;
-  max-width: 968px;
-  padding: 0 2vw;
-  
+  max-width: 690px;
+  padding-left: 11%;
+  align-self: stretch;
+  width: 100%;
 }
+
+
+
+
+@media (min-width: 955px) and (max-width: 1280px) {
+
+  .intro {
+    
+    padding-left: calc(38vw - 690px / 2);
+    
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 954px) {
+
+  .intro {
+    
+    padding-left: 2vw;
+    width: 90vw;
+  }
+
+}
+
+
 
 @media (min-width:319px) and (max-width: 400px) {
 
