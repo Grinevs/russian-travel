@@ -3,20 +3,14 @@
   font-size: 12px;
   line-height: 1;
   letter-spacing: 0.2em;
-  
+  padding: 0;
+  margin: 0;  
 }
 
-@media (min-width:701px) and (max-width: 831px) {
 
+@media all and (max-width: 668px) {
   .place__url {
     opacity: 0;
-    
-  }
-
-}
-
-@media all and (max-width: 700px) {
-  .place__url {
-    opacity: 0;
+    font-size: 1px;
   }
 }

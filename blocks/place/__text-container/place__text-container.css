@@ -1,32 +1,28 @@
 .place__text-container {
   margin: 13vh 0 0 0;
+
 }
 
-
-@media (min-width:701px) and (max-width: 831px) {
-
+@media all and (max-width: 1024px) {
   .place__text-container {
-    margin: -8vh 2vw -4vh 2vw;
-    
+    margin: 4vh 0 0 0;
+    padding-left: 1vw;
   }
-
 }
 
-@media all and (max-width: 700px) {
 
+@media all and (max-width: 768px) {
   .place__text-container {
-    margin: -8vh 2vw -4vh 2vw;
-    
+    width: 90%;
   }
-
 }
 
-@media (min-width:319px) and (max-width: 400px) {
-
+@media all and (max-width: 673px) {
   .place__text-container {
-    margin: -8vh 0 -4vh 20px;
-    width: 90vw;
-    
+    margin: 0; 
+    padding-left: 4vw;
   }
-
 }
+
+
+

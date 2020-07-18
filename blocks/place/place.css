@@ -1,9 +1,21 @@
 .place {
-  
+  max-width: 984px;
   display: grid;
   /* grid-template-columns: repeat(4, 1fr); */
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   grid-gap: 1% 5%;
   box-sizing: border-box;
 }
+
+@media all and (max-width: 760px) {
+  .place_ {
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-gap: 1% 1%;
+  
+  }
+}
+
+
+
+
 

@@ -1,5 +1,7 @@
 .place__image {
   object-fit: cover;
   max-width: 100%;
+  min-width: 300px;
+  box-sizing: border-box;
 }
 
