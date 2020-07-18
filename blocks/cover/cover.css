@@ -12,8 +12,22 @@
   }
 }
 
-@media (min-width:319px) and (max-width: 670px) {
+@media (min-width:508px) and (max-width: 670px) {
   .cover {
-    padding-top: 130%;
+    padding-top: 80%;
+  }
+}
+
+@media (min-width:440px) and (max-width: 508px) {
+  .cover {
+    padding-top: 100%;
+  }
+}
+
+
+
+@media (min-width:300px) and (max-width: 440px) {
+  .cover {
+    padding-top: 140%;
   }
 }
