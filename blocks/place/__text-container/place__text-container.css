@@ -1,33 +1,30 @@
 .place__text-container {
-  margin: 13vh 0 0 0;
+  padding: 13vh 0 0 0;
+  box-sizing: border-box;
 
 }
 
 @media (min-width: 866px) and (max-width: 1024px) {
   .place__text-container {
-    margin: 11vh 0 0 0;
-    padding-left: 1vw;
+    padding: 11vh 0 0 1vw;
   }
 }
 
 @media (min-width: 800px) and (max-width: 865px) {
   .place__text-container {
-    margin: 5vh 0 0 0;
-    padding-left: 1vw;
+    padding: 5vh 0 0 1vw;
   }
 }
 
 @media (min-width: 727px) and (max-width: 800px) {
   .place__text-container {
-    margin: 7vh 0 0 0;
-    padding-left: 1vw;
+    padding: 7vh 0 0 1vw;
   }
 }
 
 @media (min-width: 673px) and (max-width: 727px) {
   .place__text-container {
-    margin: 7vh 0 0 0;
-    padding-left: 1vw;
+    padding: 7vh 0 0 1vw;
   }
 }
 
@@ -39,8 +36,8 @@
 
 @media all and (max-width: 673px) {
   .place__text-container {
-    margin: 0; 
-    padding-left: 4vw;
+    padding: 0 0 0 4vw; 
+    
   }
 }
 
