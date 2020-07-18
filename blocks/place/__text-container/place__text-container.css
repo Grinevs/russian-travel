@@ -3,12 +3,34 @@
 
 }
 
-@media all and (max-width: 1024px) {
+@media (min-width: 866px) and (max-width: 1024px) {
   .place__text-container {
-    margin: 4vh 0 0 0;
+    margin: 11vh 0 0 0;
     padding-left: 1vw;
   }
 }
+
+@media (min-width: 800px) and (max-width: 865px) {
+  .place__text-container {
+    margin: 5vh 0 0 0;
+    padding-left: 1vw;
+  }
+}
+
+@media (min-width: 727px) and (max-width: 800px) {
+  .place__text-container {
+    margin: 7vh 0 0 0;
+    padding-left: 1vw;
+  }
+}
+
+@media (min-width: 673px) and (max-width: 727px) {
+  .place__text-container {
+    margin: 7vh 0 0 0;
+    padding-left: 1vw;
+  }
+}
+
 
 
 @media all and (max-width: 768px) {
