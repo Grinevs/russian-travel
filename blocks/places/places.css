@@ -10,9 +10,22 @@
   }
 }
 
+@media all and (max-width: 800px) {
+  .places {
+    padding: 6vh 0vw;
+    width: 92%;
+  }
+}
+
 @media all and (max-width: 720px) {
   .places {
     padding: 6vh 0vw;
     width: 100%;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .places {
+    padding-left: 1vw;
   }
 }

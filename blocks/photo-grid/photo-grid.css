@@ -7,3 +7,24 @@
   grid-gap: 8px 8px;
   box-sizing: border-box;;
 }
+
+@media all and (max-width: 1050px) {
+  .photo-grid {
+    width: 92%;
+    grid-gap: 16px 16px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .photo-grid {
+    width: 95%;
+    grid-gap: 12px 12px;
+  }
+}
+
+@media all and (max-width: 530px) {
+  .photo-grid {
+    width: 92%;
+  }
+}
+

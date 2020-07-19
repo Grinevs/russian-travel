@@ -1,11 +1,11 @@
 .cover {
-  padding-top: 20vh;
+  padding-top: 2vh;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-
+/* 
 @media all and (max-width: 800px) {
   .cover {
     padding-top: 13vh; 
@@ -30,4 +30,4 @@
   .cover {
     padding-top: 140%;
   }
-}
+} */

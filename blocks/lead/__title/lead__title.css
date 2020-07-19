@@ -17,3 +17,9 @@
     margin: 0 0 3vh 0;
   }
 }
+
+@media all and (max-width: 600px) {
+  .lead__title {
+    margin: 0 0 1vh 0;
+  }
+}
