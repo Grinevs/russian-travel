@@ -1,5 +1,5 @@
 .footer {
-  padding: 7vh 3vw 0 3vw;
+  padding: 7.5vh 3vw 0 3vw;
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -12,5 +12,24 @@
 @media all and (max-width: 720px) {
   .footer {
     flex-direction: column;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .footer {
+    padding: 8.5vh 3vw 0 3vw;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .footer {
+    padding: 8vh 3vw 0 3vw;
+  }
+}
+
+
+@media all and (max-width: 500px) {
+  .footer {
+    padding: 7vh 3vw 0 3vw;
   }
 }
